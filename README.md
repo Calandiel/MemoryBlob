@@ -4,7 +4,8 @@ A small wrapper around c_type arrays for easier FFI and state persistence in Ren
 Since Ren'Py depends on pickling for its replays and save files, efficient interopability with foreign languages (for example, Lua through LuaJIT) is problematic.
 
 This library helps with this issue by exposing a `MemoryBlob` class, a thin wrapper around c_type arrays that supports pickling while also exposing the raw pointer that can be passed to other languages for further use.
-# Example use
+
+## Example use
 ```python
 from c_types import *
 
