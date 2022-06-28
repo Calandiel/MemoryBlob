@@ -33,3 +33,6 @@ arr = MemoryBlob(4)
 # ... and so is the length (defaults to 0)
 arr = MemoryBlob()
 ```
+
+## Additional remarks
+This module depends on ctypes. It's intended to be used with Ren'Py, which provides it by default.
